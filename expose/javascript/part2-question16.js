@@ -8,3 +8,10 @@ let statistics = {
     rareCars: 2
 };
 
+for (const [ky, val] of Object.entries(statistics)) {
+    if (ky[0] === "r" || (val %2)!=0) {
+
+      console.log(val);
+    }
+}
+
